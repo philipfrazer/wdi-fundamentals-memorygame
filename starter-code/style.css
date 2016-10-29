@@ -22,6 +22,14 @@ h2 {
 	color: #ffd700
 }
 
+p {
+  text-align: center
+}
+
+.name {
+  color: #ff0000;
+  }
+
 body {
 	text-align: center;
 }
@@ -42,6 +50,10 @@ a {
 	float: left;
 }
 
+a:hover {
+        background-color: #ee5f3c;
+      }
+
 .clearfix:after {
     visibility: hidden;
     display: block;
@@ -52,5 +64,6 @@ a {
 }
 
 footer {
-	background: #808080;
+	background-color: #808080;
+	text-align: center;
 }
